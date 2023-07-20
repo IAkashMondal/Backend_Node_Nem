@@ -1,0 +1,1 @@
+new value from comand prompt: to add: in shell node index.js add data.txt sms
