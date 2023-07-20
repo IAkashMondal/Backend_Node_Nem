@@ -1,11 +1,12 @@
 const fs = require("fs");
+const {formattedDateTime} = require("./time");
 const input = process.argv;
 
 // conditons------------------->
 // to add , cmd node index.js add file name 'sms'
 if (input[2] === "add") {
   const fileName = input[3];
-  const newText = input[4];
+  const newText = input[4] ;
 
   // Read the existing content of the file (if it exists).
   let existingContent = "";
@@ -14,7 +15,7 @@ if (input[2] === "add") {
   }
 
   // Append the new text to the existing content, separated by a new line.
-  const updatedContent = existingContent + "\n" + newText;
+  const updatedContent = existingContent + "\n" + newText + " "+formattedDateTime;
 
   // Write the updated content back to the file.
   fs.writeFileSync(fileName, updatedContent);
