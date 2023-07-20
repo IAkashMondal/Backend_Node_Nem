@@ -1,0 +1,4 @@
+new value from comand prompt
+new value from comand prompt: to add: in shell node index.js add data.txt sms
+new value from comand prompt: to add: in shell node index.js add data.txt sms and time also20-07-2023 17_27-24
+new value from comand prompt: to add: in shell node index.js add data.txt sms and time also 2   20-07-2023 17-28-58  20-07-2023 17-28-58
