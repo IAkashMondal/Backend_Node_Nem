@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "backend-nem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAkashMondal/Backend_Node_Nem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAkashMondal/Backend_Node_Nem/issues"
+  },
+  "homepage": "https://github.com/IAkashMondal/Backend_Node_Nem#readme",
+  "description": ""
+}
